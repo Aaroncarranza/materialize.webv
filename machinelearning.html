@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning </title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <style>
+        .img-section {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        main {
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+       <div class="navbar-fixed">
+        <nav class="blue darken-3">
+          <div class="nav-wrapper">
+            <a href="inicio.html" class="brand-logo">Portal de Tecnologías Emergentes</a>
+            
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="inteligenciaartificial.html">Inteligencia Artificial</a></li>
+              <li><a href="machinelearning.html">Machine Learning</a></li>
+              <li><a href="tecnologia.html">Tecnologías Emergentes</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <ul class="sidenav" id="mobile-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="inteligenciaartificial.html">Inteligencia Artificial</a></li>
+        <li><a href="machinelearning.html">Machine Learning</a></li>
+        <li><a href="tecnologia.html">Tecnologías Emergentes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+ 
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <section id="que-es" class="section card-panel white z-depth-2 hoverable">
+                <h2 class="light-blue-text text-darken-4">¿Qué es el Machine Learning?</h2>
+                <div class="row valign-wrapper">
+                    <div class="col s12 m6">
+                        <p class="flow-text">El Machine Learning (ML), es una rama de la IA que permite a las computadoras **aprender de los datos sin ser programadas explícitamente**.</p>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="video-container z-depth-1">
+                            <iframe src="https://www.youtube.com/embed/ukzFI9rgwfU" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tipos" class="section">
+                <h2 class="light-blue-text text-darken-4 center-align">Tipos de Machine Learning</h2>
+                <div class="card-panel white z-depth-2">
+                    <div class="row">
+                        <div class="col s12">
+                            <ul class="tabs light-blue darken-4">
+                                <li class="tab col s4"><a class="white-text waves-effect active" href="#test1">Supervisado</a></li>
+                                <li class="tab col s4"><a class="white-text waves-effect" href="#test2">No Supervisado</a></li>
+                                <li class="tab col s4"><a class="white-text waves-effect" href="#test3">Refuerzo</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div id="test1" class="col s12">
+                            <h4><i class="material-icons left green-text">school</i> Aprendizaje Supervisado</h4>
+                            <p>Aprende a mapear una entrada a una salida basándose en **pares de entrada-salida etiquetados**. Es ideal para tareas de clasificación y regresión.</p>
+                            <img src="https://kodigowebstorage.blob.core.windows.net/kodigowebsite/2024/02/Machine-learning.jpg" class="responsive-img z-depth-1 img-section" alt="Aprendizaje Supervisado">
+                        </div>
+                        
+                        <div id="test2" class="col s12">
+                            <h4><i class="material-icons left orange-text">group_work</i> Aprendizaje No Supervisado</h4>
+                            <p>Encuentra patrones y estructuras ocultas en datos **sin etiquetar**. Se usa comúnmente para clustering (agrupación) y reducción de dimensionalidad.</p>
+                             <img src="https://www.ticportal.es/wp-content/uploads/tipos-machine-learning-ai.png?x40054" class="responsive-img z-depth-1 img-section" alt="Aprendizaje No Supervisado">
+                        </div>
+
+                        <div id="test3" class="col s12">
+                            <h4><i class="material-icons left red-text">sports_esports</i> Aprendizaje por Refuerzo</h4>
+                            <p>Un agente aprende a tomar decisiones secuenciales en un entorno para **maximizar una recompensa**. Es la base de muchos sistemas de IA en juegos y robótica.</p>
+                            <img src="https://delatorre.ai/wp-content/uploads/2024/09/Captura-de-pantalla-2024-09-09-201108.png" class="responsive-img z-depth-1 img-section" alt="Aprendizaje por Refuerzo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           <section id="ventajas">
+    <h2 class="center-align light-blue-text text-darken-4">Ventajas y Desventajas </h2>
+    <div class="row">
+        
+        <div class="col s12 m6">
+            <div class="card-panel white">
+                <h3 class="light-blue-text text-darken-4">Ventajas</h3>
+                <ul class="collection with-header">
+                    <li class="collection-item">Procesamiento rápido de grandes volúmenes de datos, facilitando decisiones precisas.</li>
+                    <li class="collection-item">Automatización de tareas repetitivas o peligrosas.</li>
+                    <li class="collection-item">Descubrimiento de patrones y aprendizaje continuo.</li>
+                    <li class="collection-item">Aporta eficiencia y conocimiento a diferentes áreas.</li>
+                </ul>
+            </div>
+        </div>
+	
+        <div class="col s12 m6">
+            <div class="card-panel white">
+                <h3 class="light-blue-text text-darken-4">Desventajas</h3>
+                <ul class="collection with-header">
+                    <li class="collection-item">Costos elevados de implementación y necesidad de grandes cantidades de datos confiables.</li>
+                    <li class="collection-item">Riesgo de sesgos si no se maneja correctamente.</li>
+                    <li class="collection-item">Riesgo de dependencia tecnológica y desplazamiento de empleos.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</section>
+
+        </div>
+    </main>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large light-blue waves-effect" href="#top">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <footer class="page-footer light-blue darken-4">...</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.Sidenav.init(document.querySelectorAll('.sidenav'));
+            M.Dropdown.init(document.querySelectorAll('.dropdown-trigger'), {
+                coverTrigger: false
+            });
+            // Inicializar Tabs
+            M.Tabs.init(document.querySelectorAll('.tabs'));
+            // Inicializar Collapsible
+            M.Collapsible.init(document.querySelectorAll('.collapsible'));
+            M.FloatingActionButton.init(document.querySelectorAll('.fixed-action-btn'));
+        });
+    </script>
+</body>
+</html>
